@@ -16,21 +16,21 @@ function checkParamsFn(year, month, day) {
   // Write your code here
 }
 
-// This functions should check if the person is or above 18 years of age, return true/false
+// This functions checks if the person is or above 18 years of age, return true/false
 function checkOverEighteenFn(year, month, day) {
   // Write your code here
 }
 
-// This is an anonymous function. It looks like a variable but it's not.
-// Also look at the naming of the function. it looks like salwaBaqer, where
+function calculateAgeFn(year, month, day) {
+  // Write your code here
+}
+
+// Look at the naming of the functions. it looks like salwaBaqer, where
 // the first letter of the first word is small, while the first letter of the
 // second word is Capital. This is called "Camel Casing."
 // Also the Fn at the end of the function name is short for function.
 // str = String, int = Integer, arr = Array, obj = Object, fn = Function
 // It's best practice to name your function as to what it does, or your variable
 // to what it holds.
-function calculateAgeFn(year, month, day) {
-  // Write your code here
-}
 
 module.exports = calculateAgeFn;
